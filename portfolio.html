@@ -11,48 +11,45 @@
   </head>
   <body>
     <header class="">
-      <!-- Display for large and extra large screens -->
-      <div class="d-none d-lg-block">
-        <div>
+
           <img src="" alt="Headshot of Kimberly Perkins" class="col-lg-2 d-inline">
           <h1 class="col-lg-8 d-inline">Kimberly Perkins</h1>
-        </div>
+
         <br>
-        <ul class="nav nav-pills nav-fill">
-          <li class="nav-item" aria-current="page">
-            <a class="nav-link active" href="#AboutMe">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Qualifications">Qualifications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Projects">My Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#ContactMe">Contact Me</a>
-          </li>
-        </ul>
-    <div>
+
+        <!-- Display for large and xlarge screens -->
+        <div class="d-none d-lg-block">
+          <ul class="nav nav-pills nav-fill">
+            <li class="nav-item" aria-current="page">
+              <a class="nav-link active" href="#AboutMe">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Qualifications">Qualifications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Projects">My Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ContactMe">Contact Me</a>
+            </li>
+          </ul>
+        <div>
 
     <!-- Display for small, extra small, and medium sized screens -->
-    <div class="d-xs-block d-lg-none">
-      <div>
-        <img src="" alt="Headshot of Kimberly Perkins" class="position-absolute top-0 start-50 translate-middle-x d-block">
-        <h1 class="d-block">Kimberly Perkins</h1>
-      </div>
-      <br>
-      <ul class="nav nav-pills nav-fill">
-        <li class="nav-item" aria-current="page">
-          <a class="nav-link active" href="#AboutMe">About Me</a>
+    <div class="d-lg-none dropdown">
+      <a href="#" class="d-flex align-items-center dropdown-toggle" data-bs-toggle="dropdown"></a>
+      <ul class="dropdown-menu shadow">
+        <li  aria-current="page">
+          <a class="dropdown-item active" href="#AboutMe">About Me</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#Qualifications">Qualifications</a>
+        <li>
+          <a class="dropdown-item" href="#Qualifications">Qualifications</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#Projects">My Projects</a>
+        <li>
+          <a class="dropdown-item" href="#Projects">My Projects</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#ContactMe">Contact Me</a>
+        <li>
+          <a class="dropdown-item" href="#ContactMe">Contact Me</a>
         </li>
       </ul>
     <div>
