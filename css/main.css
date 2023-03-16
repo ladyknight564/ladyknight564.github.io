@@ -8,4 +8,7 @@ header {
 
 footer {
   background-color: #C8B6FF;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
 }
