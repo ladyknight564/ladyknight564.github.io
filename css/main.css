@@ -1,5 +1,5 @@
 body{
-  background-color: #FFD6FF;
+  background-color: #BBD0FF;
 }
 
 header {
@@ -12,12 +12,15 @@ footer {
   position: absolute;
   width: 100%;
 }
+
 .navbar{
   background-color: #E7C6FF;
 }
+
 #emailLink{
   float:right;
 }
+
 #headshot{
-  
+  padding-right: 15%;
 }
