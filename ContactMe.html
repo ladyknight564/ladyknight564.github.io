@@ -4,6 +4,7 @@
     <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/ContactMe.css">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
@@ -43,13 +44,22 @@
     <br>
 
     <section>
-
+      <form class="" action="index.html" method="post">
+        <p>Name: <input type="text" name="messengerName" value=""></p>
+        <p>Email: <input type="email" name="messengerEmail" value=""></p>
+        <p>Message:</p>
+        <textarea class="form-control" name="message" rows="8"></textarea>
+        <br>
+        <button type="button" name="emailButton">Send</button>
+      </form>
     </section>
+
+    <br>
 
     <footer class="footer mt-auto py-3 absolute-bottom">
       <div class="container">
         <a id="GithubLink" href="https://github.com/ladyknight564/ladyknight564">Github Profile</a>
-        <a id="emailLink" href="mailto:ladyknight564@hotmail.com?subject=feedback">email me</a>
+        <a id="emailLink" href="mailto:ladyknight564@hotmail.com?subject=feedback">Email Me</a>
       </div>
     </footer>
   </body>
