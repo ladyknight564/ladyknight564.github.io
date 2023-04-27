@@ -45,11 +45,15 @@
 
     <section>
       <form class="" action="index.html" method="post">
-        <p>Name: <input type="text" name="messengerName" value="" placeholder="John Doe"></p>
-        <p>Email: <input type="email" name="messengerEmail" value="" placeholder="about@me.com"></p>
-        <p>Subject: <input type="text" name="messengeSubject" value="" placeholder="Subject"></p>
-        <p>Message:</p>
-        <textarea class="form-control" name="message" rows="8"></textarea>
+        <label for="Messenger"> Name:</label> <input type="text" name="messengerName" value="" placeholder="John Doe" id="Messenger">
+          <br>
+        <label for="mEmail">Email:</label> <input type="email" name="messengerEmail" value="" placeholder="about@me.com" id="mEmail">
+          <br>
+        <label for="mSubject">Subject:</label> <input type="text" name="messengeSubject" value="" id="mSubject" placeholder="Subject">
+          <br>
+        <label for="Message">Message: </label>
+          <br>
+        <textarea class="form-control" name="message" id="Message" rows="8"></textarea>
         <br>
         <button type="button" class="btn btn-primary" name="emailButton" value="Submit">Send</button>
       </form>
