@@ -8,6 +8,7 @@
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+      <script src="java/contactform.js"></script>
     <title>Personal Portfolio</title>
   </head>
   <body>
@@ -46,7 +47,7 @@
 
     <section>
       <form class="" action="index.html" method="post">
-        <label for="Messenger"> Name:</label> <input type="text" name="messengerName" value="" placeholder="John Doe" id="Messenger">
+        <label for="Messenger"> Name:</label> <input type="text" name="messengerName" value="" placeholder="John Doe" id="MessengerName">
           <br>
         <label for="mEmail">Email:</label> <input type="email" name="messengerEmail" value="" placeholder="about@me.com" id="mEmail">
           <br>
@@ -56,7 +57,7 @@
           <br>
         <textarea class="form-control" name="message" id="Message" rows="8"></textarea>
         <br>
-        <button type="button" class="btn btn-primary" name="emailButton" value="Submit">Send</button>
+        <button type="button" class="btn btn-primary" name="emailButton" onclick="sendMail();">Send</button>
       </form>
     </section>
 
