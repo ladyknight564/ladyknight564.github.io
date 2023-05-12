@@ -1,0 +1,9 @@
+section img {
+  /* height: 500px; */
+  height: 50vh;
+  position: center;
+  display: block;
+}
+section {
+  margin: 2% 2% 2% 2%;
+}
