@@ -1,2 +1,2 @@
 # ladyknight564.github.io
-This is my resume website
+link to my portfolio website: https://ladyknight564.github.io/portfolio.html
