@@ -21,7 +21,7 @@ footer {
   float:right;
 }
 #container{
-  min-height: 90vh;
+  min-height: 95vh;
   margin-bottom: 50px;
 }
 #container::after{
